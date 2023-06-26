@@ -1,0 +1,13 @@
+{
+  "name": "com.ambratolm.scriptgenerator",
+  "version": "0.0.1",
+  "unity": "2020.1",
+  "displayName": "@ Script Generator",
+  "description": "Script Generator allows you to generate script files from custom class template files.",
+  "keywords": [
+    "script",
+    "generator",
+    "template"
+  ],
+  "category": "Add-Ons"
+}
