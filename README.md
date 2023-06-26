@@ -5,15 +5,35 @@
 
 Script Generator is a simple [Unity](https://unity.com) package that allows you to generate script files from custom class template files.
 
-It just uses casual C# and Unity API. No mind-blowing external tools or fancy libraries 😁.
-
+It just uses casual C# and Unity API. No mind-blowing external tools or fancy libraries 😁.<br />
 You can use this for simple and small script generation, not for sophisticated complex cases.
+
+<!-- toc -->
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Class-Template File](#class-template-file)
+  * [Class-Template Code](#class-template-code)
+  * [Class-Template Class](#class-template-class)
+  * [Generated Class](#generated-class)
+- [License](#license)
+
+<!-- tocstop -->
+
+## Installation
+
+1. Open [Unity Package Manager](https://docs.unity3d.com/Manual/upm-ui.html) from the main menu under _Window > Package Manager_.
+2. Open the add `+` menu in the Package Manager’s toolbar. A menu of options for adding packages should appear.
+3. Select **"Add package from git URL"**. A text box and an Add button should appear.
+4. Enter the Git URL of this repository in the text box and click Add.
+
+> 💡 [How to Install any Unity package from a Git repo URL](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
 
 ## Usage
 
 1. Create an empty C# script file with a name ending with the extension `.template.cs`. For example `MyScript.template.cs`.
    
-   > If you create a C# script file from Unity's project window, just add `.template` to the end of its name. Unity will automatically add `.cs`.
+   > 💡 If you create a C# script file from Unity's project window, just add `.template` to the end of its name. Unity will automatically add `.cs`.
 
 2. Copy this starter code inside it:
 ```csharp
@@ -58,7 +78,7 @@ namespace MyNamespace
 
 3. Edit the template and save your changes.
 
-   > You can replace `#if false` with `#if true` to comfortably edit the template (Visual Studio code editing features enabled) then set it back to `#if false` when you're done editing it.
+   > 💡 You can replace `#if false` with `#if true` to comfortably edit the template (Visual Studio code editing features enabled) then set it back to `#if false` when you're done editing it.
 
    Check the [next sections](#class-template-file) of this document to learn about the class template.
 
