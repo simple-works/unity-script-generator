@@ -93,7 +93,7 @@ namespace Ambratolm.ScriptGenerator
         //----------------------------------------------------------------------------------------------------
 
         /// <summary>
-        /// Initializes a new instance of ClassTemplate.
+        /// Initializes a new instance.
         /// </summary>
         /// <param name="text">The text input to be parsed for extracting the class template code.</param>
         public ClassTemplate(string text) => Code = text;

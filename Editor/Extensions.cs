@@ -3,7 +3,7 @@ namespace Ambratolm.ScriptGenerator.Extensions
     /// <summary>
     /// String extension methods.
     /// </summary>
-    internal static class String
+    internal static class StringExtension
     {
         /// <summary>
         /// Returns a substring between two specified strings.
